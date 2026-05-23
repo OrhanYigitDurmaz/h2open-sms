@@ -7,7 +7,7 @@ app_license = "mit"
 
 required_apps = ["frappe", "erpnext"]
 
-send_sms = "h2open_sms.sms_manager.send_sms"
+send_sms = "h2open_sms.h2open_sms.sms_manager.send_sms"
 
 # Apps
 # ------------------

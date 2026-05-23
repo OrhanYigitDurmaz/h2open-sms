@@ -4,7 +4,7 @@ import frappe
 from frappe import _
 from frappe.utils import nowdate
 
-from h2open_sms.sms_origin import SmsOriginAPI
+from h2open_sms.h2open_sms.sms_origin import SmsOriginAPI
 
 
 def send_sms(receiver_list, msg, sender_name="", success_msg=True):
