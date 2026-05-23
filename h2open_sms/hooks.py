@@ -5,7 +5,7 @@ app_description = "SMS integration for H2Open"
 app_email = "orhan@h2open.com"
 app_license = "mit"
 
-send_sms = ["h2open_sms.sms_manager.send_sms"]
+send_sms = "h2open_sms.sms_manager.send_sms"
 
 # Apps
 # ------------------
